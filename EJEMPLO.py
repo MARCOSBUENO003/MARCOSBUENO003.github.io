@@ -8,7 +8,7 @@ class Test(CUENTAAHORRO, CUENTACORRIENTE):
         CUENTACORRIENTE.__init__(self, numero, nombrePropietario, saldo, TieneChequera)
 
 # Ejemplo
-cuenta_pru = Test("20040709", "Leonel Messi", 4891.72, 7.9, True)
+cuenta_pru = Test("20040709", "BAD BUNNY", 4891.72, 7.9, True)
 
 # Acceder a propiedades y métodos de ambas clases base
 print("Saldo de la cuenta de ahorros:")
